@@ -90,3 +90,18 @@ body{
 .sc-item.done .sc-num{background:var(--green);color:#fff}
 .sc-item .chev{margin-right:auto;color:var(--muted)}
 .hidden{display:none!important}
+
+/* v2 — رحلة الـ ٣٠ يوم */
+.story-card{background:linear-gradient(160deg,#fdeee6,#fdf6f0);font-size:16px;line-height:1.9}
+.stage-card h3{font-size:16.5px;line-height:1.8;margin-bottom:12px;color:var(--ink)}
+.choices{display:flex;flex-direction:column;gap:10px}
+.choice-btn{display:block;width:100%;text-align:right;background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:13px 14px;font-size:15px;font-family:inherit;color:var(--ink);cursor:pointer;transition:transform .12s ease,border-color .12s ease;text-decoration:none;line-height:1.6}
+.choice-btn:active{transform:scale(.98);border-color:var(--coral)}
+.choice-btn.primary{background:var(--coral);color:#fff;border-color:var(--coral);font-weight:700;text-align:center}
+.reaction-card{background:#fff8ee;border:1.5px solid var(--gold);font-size:15px;line-height:1.8}
+.reaction-card p{margin-bottom:12px}
+.outcome-card{background:#fff8ee;border:1.5px solid var(--gold)}
+.outcome-card h3{color:var(--coral-dark)}
+.takeaway-card{background:#eef6f1;border:1.5px solid #bcdcc9}
+.takeaway-card h3{color:var(--green)}
+.end-actions{display:flex;flex-direction:column;gap:10px;margin-top:12px}

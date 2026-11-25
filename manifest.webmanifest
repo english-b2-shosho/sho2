@@ -1,7 +1,7 @@
 {
   "name": "Sho2 — خطوتك في مواقف الحياة",
   "short_name": "Sho2",
-  "description": "مواقف من الحياة... تختاري ردّك وتشوفي ممكن يوصلك لفين",
+  "description": "رحلة ٣٠ يوم: مواقف من الحياة... تختاري ردّك وتشوفي ممكن يوصلك لفين",
   "lang": "ar",
   "dir": "rtl",
   "start_url": ".",
@@ -11,6 +11,7 @@
   "theme_color": "#c2503f",
   "icons": [
     { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
